@@ -4,6 +4,7 @@ pipeline {
     stage('Print') {
       steps {
         echo 'Start Build'
+        sh 'hello world'
       }
     }
   }
