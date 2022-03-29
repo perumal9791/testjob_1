@@ -1,9 +1,7 @@
 pipeline {
   //agent any
   node('es-listserv') {
-    // some block
-}
-  stages {
+      stages {
     stage('Print') {
       steps {
         echo 'Start Build'
@@ -11,4 +9,6 @@ pipeline {
       }
     }
   }
+}
+
 }
