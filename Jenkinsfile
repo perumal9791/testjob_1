@@ -1,5 +1,8 @@
 pipeline {
-  agent {'es-listserv'}
+  //agent any
+  node('es-listserv') {
+    // some block
+}
   stages {
     stage('Print') {
       steps {
