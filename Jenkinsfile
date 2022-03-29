@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent es-listserv
   stages {
     stage('Print') {
       steps {
