@@ -1,5 +1,5 @@
 pipeline {
-  agent {labell 'es-listserv'}
+  agent {label 'es-listserv'}
   //node("es-listserv") {
       stages {
     stage('Print') {
