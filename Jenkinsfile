@@ -1,6 +1,6 @@
 pipeline {
-  //agent any
-  node('es-listserv') {
+  agent any
+  //node('es-listserv') {
       stages {
     stage('Print') {
       steps {
@@ -9,6 +9,6 @@ pipeline {
       }
     }
   }
-}
+//}
 
 }
